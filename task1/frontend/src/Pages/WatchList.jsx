@@ -8,7 +8,7 @@ const WatchList = () => {
   let details = JSON.parse(localStorage.getItem("details"));
   const [datas,setData] = useState([]);
   const getData = async()=>{
-    let resp = await axios.get(`http://localhost:3001/watchlist?q=${details[2]}`);
+    let resp = await axios.get(`https://gleaming-dog-necklace.cyclic.app/watchlist?q=${details[2]}`);
     setData(resp.data);
   }
   useEffect(()=>{
