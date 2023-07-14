@@ -1,0 +1,45 @@
+
+
+.mainnav{
+    background-image: url(https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainnavfix{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(25, 1, 82);
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.emailName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16%;
+}
+
+.navbutton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbutton>button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.navbutton>button:hover{
+    background: rgb(177, 176, 176);
+    color: black;
+}
